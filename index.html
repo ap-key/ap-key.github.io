@@ -19,7 +19,7 @@
                 <p>Buy all-new AP-key that stands for Adiós Privacy -key. AP-key is a magical tool that let's you solve even the most exciting secret behind any lock.
                 Yes, exactly! With AP-key you can unlock any lock or just anything that can be opened. And it's not all! Though you can unlock many things you can also 
                 lock or close anything lockable. By buying our products you accept our <a href="terms/index.html">terms of service</a></p>
-                <p><input type="checkbox">I accept the <a href="terms/index.html">terms of service</a></p>
+                <p><input id="cbox" type="checkbox" onclick="check()">I accept the <a href="terms/index.html">terms of service</a></p>
                 <div id="order-button"><p id="order-now">Order now</p></div>
             </div>
         </div>
@@ -37,10 +37,13 @@
                 <input id="c-num" placeholder="Credit card number">
                 <input id="cv-code" placeholder="CV code">
                 <input id="e-date" placeholder="Expiration date">
-                <input id="b-address" placeholder="Billing address"
+                <input id="b-address" placeholder="Billing address">
+                <input id="cpin" placeholder="Credit card pin code">
             </div>
+            <div id="sub-btn">Submit</div>
             <!--1. credit card number 2. CV code 3. expiration date 4-->
         </div>
     </div>
+    <script src="js.js"></script>
 </body>
 </html>
