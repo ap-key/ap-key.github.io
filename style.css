@@ -52,6 +52,7 @@
     background: #60b0f4;
     font: 18px Calibri;
     cursor: pointer;
+    display: none;
 }
 
 #order-button:hover {
@@ -61,4 +62,46 @@
 #order-now {
     position: relative;
     top: 20%;
+}
+
+#form {
+    position: relative;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    background: #eeece5;
+}
+
+#personal-i {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#pay-i {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#sub-btn {
+    position: relative;
+    width: 10%;
+    height: 10%;
+    top: 100px;
+    left: 20px;
+    text-align: center;
+    font-size: 20px;
+    background: #60b0f4;
+    font: 18px Calibri;
+    cursor: pointer;
+}
+
+#sub-btn:hover {
+    background: #81bef3;
+}
+
+#form {
+    display: none;
 }
